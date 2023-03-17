@@ -42,5 +42,5 @@ function MyComponent() {
 
 - Trong ví dụ trên, useState được sử dụng để khởi tạo state count với giá trị ban đầu là 0.
 - useState trả về một cặp giá trị, được lưu trữ trong biến count và setCount.
-- count được sử dụng để hiển thị giá trị state trong phần tử <p>, và setCount được sử dụng để cập nhật giá trị state mới khi người dùng click vào button "Increment".
+- count được sử dụng để hiển thị giá trị state trong phần tử p, và setCount được sử dụng để cập nhật giá trị state mới khi người dùng click vào button "Increment".
 - Khi setCount được gọi, React sẽ tự động cập nhật giá trị state mới và render lại component với giá trị state mới.

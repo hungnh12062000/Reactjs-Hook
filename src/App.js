@@ -1,5 +1,6 @@
 import './App.css';
-import Nav from './views/Nav';
+import Todos from './components/todolist/Todos';
+import Nav from './components/navbar/Nav';
 
 
 const App = () => {
@@ -7,6 +8,8 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <Nav />
+
+        <Todos />
       </header>
     </div>
   );

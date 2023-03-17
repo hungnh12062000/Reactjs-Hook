@@ -1,0 +1,60 @@
+.text-field {
+  padding: 15px;
+  border: 1px solid #6a5af9;
+  border-radius: 6px;
+  margin: 20px 0;
+}
+
+.text-field label {
+  display: inline-block;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.text-field input {
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-size: 14px;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  padding: 8px 12px;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #000;
+  outline: 2px solid #000;
+  padding: 20px 60px;
+  position: relative;
+  overflow: hidden;
+  transition: color 1s;
+}
+
+.button:hover {
+  color: #fff;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: 150%;
+  height: 100%;
+  background-color: #6a5af9;
+  transform: scaleX(0) skewX(35deg);
+  transform-origin: left;
+  z-index: -1;
+  transition: transform 1s;
+}
+
+.button:hover::before {
+  transform: scaleX(1) skewX(35deg);
+}
